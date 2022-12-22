@@ -5,19 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplicaciones Web</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="assets/favicon (1).ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="JAVASCRIPT/main.js" type="text/javascript" defer></script>
 </head>
 <body>
+    
 
-    <header class="cabecera">
+    <header class="cabecera ">
+        <nav class="cabecera__nav ">
+            <div class="cabecera__logo">
+                <div class="logo__container">
+                    <img class="logo__img" src="assets/logo4.jpg" alt="">
+                </div>
+            </div>
+             <div class="cabecera__links">
+                <div class="links__container">
+                    <a href="#ud1" class="links ">Inicio</a>
+                    <a href="#ud2" class="links">HTML5 CSS</a>
+                   
+                    <a href="#ud3" class="links">JS</a>
+                    <a href="#ud4" class="links">GitHub</a>
+                </div> 
+            </div> 
+        </nav>
         
-        <section class="cabecera__box container">
+        <section  id="ud1" class="cabecera__box container">
             <div class="cabecera__texts">
                 <h1 class="cabecera__title">Aplicaciones Web</h1>
-                <h2 class="cabecera__title2">HTML, CSS y JavaScript</h2>
+                <h2 class="cabecera__title2"><span class="typing">HTML, CSS y JavaScript.</span> </h2>
             </div>
-            <figure class="cabecera__img flip-horizontal-bottom" >
-                <img src="assets/ben-kolde-bs2Ba7t69mM-unsplash.jpg" class="cabecera__picture">
-            </figure>
+            <div class="container__media">
+                <div class="background__media"></div>
+                <div class="boton__ipad"></div>
+                <div class="altavoz__ipad"></div>
+            </div>
         </section>
         
     </header>
@@ -26,120 +48,164 @@
 
         <section class="intro container">
             <div class="intro__texts">
-                <h2 class="title">Introducción</h2>
+                <h2 class="intro__title  ">Introducción</h2>
 
-                <p class="intro__p">Las tecnologías web son los distintos mecanismos de acceso a los diversos recursos de conocimientos disponibles en Internet utilizando un navegador</p>
+                <p class="intro__p ">Las tecnologías web son los distintos mecanismos de acceso a los diversos recursos de conocimientos disponibles en Internet utilizando un navegador</p>
 
             </div>
             <figure class="intro__img">
                 <img src="assets/html-5.svg" class="intro__picture">
-                <img src="assets/css-3.svg" class="intro__picture">
                 <img src="assets/javascript.svg" class="intro__picture">
+                <img src="assets/css-3.svg" class="intro__picture">
             </figure>
         </section>
 
-        <section class="htmlcss">
-            <div class="htmlcss__container container">
-                <h2 class="title">HTML y CSS</h2>
+        <section id="ud2" class="htmlcss container">
+            <h2 class="title title__color">HTML y CSS</h2>
+            <div class="htmlcss__container ">
+                <!-- <h2 class="title">HTML y CSS</h2> -->
 
-                <p>HTML se emplea para el desarrollo de páginas de internet. Está compuesto por una seríe de etiquetas que el navegador interpreta y da forma en la pantalla</p>
-                <p class="">CSS es complementario al HTML y permite indicarle al navegador el estilo que debe darle a los distintos elementos al desplegar la información de un sitio web.</p>
+                <p class="title2">HTML se emplea para el desarrollo de páginas de internet. Está compuesto por una seríe de etiquetas que el navegador interpreta y da forma en la pantalla</p>
+                <p class="title2">CSS es complementario al HTML y permite indicarle al navegador el estilo que debe darle a los distintos elementos al desplegar la información de un sitio web.</p>
                 
 
                 <div class="htmlcss__cards">
 
-                    <article class="htmlcss__card">
-                        <div class="htmlcss__picture">
-                            ejemplo
-                        </div>
+                    <article class="htmlcss__card order3">
 
+                        <div class="htmlcss__picture ">
+                            <div class="picture__container">
+                                <div class="movimiento triangulo "></div>
+                            </div>    
+                        </div>
+                        
                         <div class="htmlcss__texts">
-                            <h3 class="htmlcss__title">Estilos</h3>
-                            <p class="htmlcss__p">p { <br> color:red; <br>
-                                font-family:Courier;<br>
-                                font-weight:bold;<br>
-                                font-style:italic;<br>
-                                line-height:30px;<br>
-                                letter-spacing:5px;<br>
-                                text-decoration:underline;<br>
-                                text-transform:capitalize;<br>
-                                text-align:left;<br>
-                                text-indent:30px;<br>
-                                }</p>
-                           
+                            <h3 class="htmlcss__title">Posiciones</h3>
                         </div>
-                    </article>
-
-                    <article class="htmlcss__card">
-                        <div class="slide-top htmlcss__picture">
-                            ejemplo
-                        </div>
-
-                        <div class="htmlcss__texts">
-                            <h3 class="htmlcss__title">Posicionamiento</h3>
-                            <p class="htmlcss__p">p { <br> color:red; <br>
-                                font-family:Courier;<br>
-                                font-weight:bold;<br>
-                                font-style:italic;<br>
-                                line-height:30px;<br>
-                                letter-spacing:5px;<br>
-                                text-decoration:underline;<br>
-                                text-transform:capitalize;<br>
-                                text-align:left;<br>
-                                text-indent:30px;<br>
-                                }</p>
-                        </div>
-                    </article>
-
-                    <article class="htmlcss__card">
                        
-                            <div class="cubo flip-horizontal-bottom htmlcss__picture">
-                                <div class="cubo__animacion">ejemplo</div>
-                            </div>
+                    </article>
+
+                    <article class="htmlcss__card order2">
+                        <div class=" htmlcss__picture">
+                            <div class="picture__container ">
+                                <div class="color-change-5x"></div>
+                            </div> 
+                        </div>
 
                         <div class="htmlcss__texts">
-                            <h3 class="htmlcss__title">Efectos</h3>
-                            <p class="htmlcss__p">p { <br> color:red; <br>
-                                font-family:Courier;<br>
-                                font-weight:bold;<br>
-                                font-style:italic;<br>
-                                line-height:30px;<br>
-                                letter-spacing:5px;<br>
-                                text-decoration:underline;<br>
-                                text-transform:capitalize;<br>
-                                text-align:left;<br>
-                                text-indent:30px;<br>
-                                }</p>
+                            <h3 class="htmlcss__title">Colores</h3>
+                            
+                        </div>
+
+                    </article>
+
+                    <article class="htmlcss__card order1" >
+                       
+                        <div class="htmlcss__picture ">
+                            <div class="picture__container">
+                                
+                                <div class="color bounce-in-right"></div>
+                            </div>
+                        </div>    
+                        
+
+                        <div class="htmlcss__texts ">
+                            <h3 class="htmlcss__title">Transiciones</h3>
                         </div>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section class="js container">
-            <h2 class="title">JavaScript</h2>
-            <p class="js__p">Lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas</p>
+        <section id="ud3" class="js container ">
+            <h2 class="title js__title">JavaScript</h2>
+            <p class="js__p title2">Lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas.</p>
 
-            <div class="js__container">
+            <div class="js__container ">
 
-                <div class="js__picture">botón</div>
+                <div class="js__box">
+                    <ul class="js__ul">
+                        <li class="js__li activo">Setup 1</li>
+                        <li class="js__li">Setup 2</li>
+                        <li class="js__li">Setup 3</li>
+                    </ul>
 
-                <div class="js__picture">botón</div>
-                <div class="js__picture">botón</div>
-                <div class="js__picture">botón</div>
-                <div class="js__picture">botón</div>
-                <div class="js__picture">botón</div>
+                    <div class="js__fuction">
+                        <div class="js__bloque activo">
+                            <img  class="bloques__img"src="assets/setup1.jpg" alt="">
+                        </div>
+                        <div class="js__bloque">
+                            <img  class="bloques__img"src="assets/setup2.jpg" alt="">
+                        </div>
+                        <div class="js__bloque">
+                            <img  class="bloques__img"src="assets/setup3.jpg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+                
                 
 
             </div>
         </section>
-
-        <section class=>
             
-        </section>
+        <section>
+        
+        <section id="ud4" class="git container">
+            <h2 class="title git__title">GitHub</h2>
+            <div class="git__box">
+                <div class="git__text">
+                    <p class="title2">GitHub es un servicio basado en la nube que aloja un sistema de control de versiones (VCS) llamado Git.</p>
+                    <div class="icon__container">
+                        <figure class="icon__box">
+                            <img src="assets/bx-git-branch.svg" alt="" class="icon__img">
+                            <h3 class="icon__title">Branch</h3>
+                        </figure>
+                        <figure class="icon__box">
+                            <img src="assets/bx-git-commit.svg" alt="" class="icon__img">
+                            <h3 class="icon__title">Commit</h3>
+                        </figure>
+                        <figure class="icon__box">
+                            <img src="assets/bx-git-pull-request.svg" alt="" class="icon__img">
+                            <h3 class="icon__title">Pull</h3>
+                        </figure>
+                    </div>    
+                </div>
+
+                <div class="git__picture">
+                    <div class="picture__text">
+                    <p class="title2">Permite a los desarrolladores colaborar y realizar cambios en proyectos compartidos, a la vez que mantienen un seguimiento detallado de su progreso.</p>
+                    </div>
+                    <img src="assets/github.jpg" alt="" class="git__img">
+                    
+                    
+                </div>
+            
+            </div>                
+        </section> 
 
     </main>
+    <footer class="footer container">
+        <div class="footer__container">
+            <div class="footer__icons">
+                <img src="assets/xunta.png" alt="" class="footer__img">
+                <img src="assets/chandomonte.png" alt="" class="footer__img">
+                <img src="assets/gobierno-edu.png" alt="" class="footer__img">
+            </div>
+        </div>
+        <div class="footer__texts">
+                AWEB-SMR2 IES Chan do Monte 2023
+        </div>
+
+            
+
+    </footer>
+ 
+    
+
 
     
+
 </body>
+
 </html>
